@@ -19,7 +19,7 @@ namespace GarageConsoleApp
         /// </summary>
         private static string GetConnectionString()
         {
-            return @"Host=10.30.0.137;Port=5432;Database=gr623_kupvi;Username=gr623_kupvi;Password=34#$GREP78&*";
+            return @"Host=10.30.0.137;Port=5432;Database=gr623_kupvi;Username=gr623_kupvi;Password=";
         }
 
         /// <summary>
