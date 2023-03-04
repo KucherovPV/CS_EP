@@ -55,23 +55,17 @@ class Program
     }
     public static bool HowManyRep(int[] arr)
     {
-        int check = 0;
+       
         for(int i =0 ; i < arr.Length; i++)
         {
-            for(int j =i+1; j < arr.Length-1; j++)
+            for(int j =i+1; j < arr.Length; j++)
             {
                 if (arr[i] == arr[j])
                 {
-                    check++;
-                }
-                else if (check >= 2)
-                {
-                    return true;
-                }
-                
-              
+                   return true;
+                }                      
             }
-            check = 0;
+            
         }
         return false;
     }
